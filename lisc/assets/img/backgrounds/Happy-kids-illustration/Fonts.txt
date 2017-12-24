@@ -1,0 +1,10 @@
+Fonts used in this design;
+
+Font: Afta Sans, 
+Author: Oriol Esparraguera, 
+Url: http://www.fontsquirrel.com/fonts/afta-sans; 
+
+Font: ElliotSix, 
+Author: Fonthead Design, 
+Url: http://www.fontsquirrel.com/fonts/ElliotSix; 
+

@@ -22,7 +22,8 @@ jQuery(document).ready(function() {
 		scroll_to($(this), $('nav').outerHeight());
 	});
 	// toggle "navbar-no-bg" class
-	$('.top-content .text').waypoint(function() {
+	// $('.top-content .text').waypoint(function() {
+	$('.text').waypoint(function() {
 		$('nav').toggleClass('navbar-no-bg');
 	});
 	

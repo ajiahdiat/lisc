@@ -201,12 +201,12 @@ ul.navbar-nav {
 .navbar-inverse ul.navbar-nav ul.dropdown-menu { color: #fff; outline: 0; opacity: 1; background: #444 }
 .navbar-inverse ul.navbar-nav ul.dropdown-menu a:hover { color: #fff; background: #444 }
 .navbar-inverse ul.navbar-nav ul.dropdown-menu a:focus { color: #fff; background: #080808 }
-.navbar-inverse ul.navbar-nav ul.dropdown-menu li.dropdown-submenu { position: relative; }
+/* .navbar-inverse ul.navbar-nav ul.dropdown-menu li.dropdown-submenu { position: relative; }
 .navbar-inverse ul.navbar-nav ul.dropdown-menu li.dropdown-submenu>.dropdown-menu { top: 0; left: 100%; margin-top: -6px; margin-left: -1px;
 	-webkit-border-radius: 0 6px 6px 6px; -moz-border-radius: 0 6px 6px; border-radius: 0 6px 6px 6px;
 }
 .navbar-inverse ul.navbar-nav ul.dropdown-menu li.dropdown-submenu:hover>.dropdown-menu { display: block; }
-.navbar-inverse ul.navbar-nav ul.dropdown-menu li.dropdown-submenu:focus>.dropdown-menu { display: block; }
+.navbar-inverse ul.navbar-nav ul.dropdown-menu li.dropdown-submenu:focus>.dropdown-menu { display: block; } */
 
 .navbar-text a {
 	margin: 0 8px;
@@ -227,6 +227,10 @@ ul.navbar-nav {
 
 .inner-bg {
     padding: 210px 0;
+}
+
+.inner-bg img{
+    width: 300px;
 }
 
 .top-content .text {
@@ -390,12 +394,26 @@ ul.navbar-nav {
 	overflow: hidden;
 }
 
+.portfolio-box-image-gallery {
+	overflow: hidden;
+}
+
 .portfolio-box-image img {
 	-o-transition: all .8s; -moz-transition: all .8s; -webkit-transition: all .8s; -ms-transition: all .8s; transition: all .8s;
+	height: 250px;
+}
+
+.portfolio-box-image-gallery img {
+	-o-transition: all .8s; -moz-transition: all .8s; -webkit-transition: all .8s; -ms-transition: all .8s; transition: all .8s;
+	height: 150px;
 }
 
 .portfolio-box-image:hover img {
 	-o-transform: scale(1.25); -moz-transform: scale(1.25); -webkit-transform: scale(1.25); -ms-transform: scale(1.25); transform: scale(1.25);
+}
+
+.portfolio-box-image-gallery:hover img {
+	cursor: pointer;
 }
 
 .portfolio-box h3 {
@@ -568,7 +586,7 @@ footer h3 {
 }
 
 .contact-form textarea {
-	height: 100px;
+	height: 160px;
 }
 
 .contact-form .input-error {
@@ -598,18 +616,26 @@ footer h3 {
 .footer-social a i { vertical-align: middle; }
 
 .footer-copyright {
-	margin-top: 25px;
-	padding-top: 25px;
+	margin-top: 1px;
+	padding-top: 1px;
 	border-top: 1px dotted #777;
+	font-size: 14px;
 }
 
 .footer-copyright a { color: #ddd; }
 .footer-copyright a:hover, .footer-copyright a:focus { color: #eee; }
 
+.footer-paging {
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
 .footer-bottom {
-	margin-top: 60px;
-	padding-top: 15px;
-	padding-bottom: 25px;
+	margin-top: 40px;
+	padding-top: 10px;
+	padding-bottom: 15px;
 	background: #3d3d3d;
 	text-align: center;
 }
